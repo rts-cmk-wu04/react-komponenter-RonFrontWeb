@@ -1,0 +1,32 @@
+{
+    "services": {
+        "delivery": {
+            "Title": "On-time delivery",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#005AEE",
+            "Icon": "./On.svg"
+
+        },
+        "parcel": {
+            "Title": "Parcels",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#FFA767",
+            "Icon": "./Pa.svg"
+        },
+        "check": {
+            "Title": "Quality check",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#0AACDC",
+            "Icon": "./Qu.svg"
+
+        },
+        "service": {
+            "Title": "Customer service",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#597AEF",
+            "Icon": "./Cu.svg"
+
+        }
+
+    }
+}
