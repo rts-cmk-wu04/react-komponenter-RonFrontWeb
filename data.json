@@ -1,0 +1,19 @@
+{
+    "delivery": {
+        "color": "#005AEE"
+
+    },
+    "parcel": {
+        "color": "#FFA767"
+
+    },
+    "check": {
+        "color": "#0AACDC"
+
+    },
+    "service": {
+        "color": "#597AEF"
+
+    }
+
+}
