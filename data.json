@@ -1,19 +1,55 @@
 {
-    "delivery": {
-        "color": "#005AEE"
+    "services": {
+        "delivery": {
+            "Title": "On-time delivery",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#005AEE",
+            "Icon": "./On.svg"
+
+        },
+        "parcel": {
+            "Title": "Parcels",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#FFA767",
+            "Icon": "./Pa.svg"
+        },
+        "check": {
+            "Title": "Quality check",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#0AACDC",
+            "Icon": "./Qu.svg"
+
+        },
+        "service": {
+            "Title": "Customer service",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+            "Color": "#597AEF",
+            "Icon": "./Cu.svg"
+
+        }
 
     },
-    "parcel": {
-        "color": "#FFA767"
-
-    },
-    "check": {
-        "color": "#0AACDC"
-
-    },
-    "service": {
-        "color": "#597AEF"
-
+    "collection": {
+        "collectionOne": {
+            "Title": "Off-the-grid experiences",
+            "Text": "By: Melanie S.",
+            "Categroy": "Collection 1",
+            "Background": "./Rec1.png",
+            "Thumbnail": "./E1.png"
+        },
+        "collectionTwo": {
+            "Title": "Shapes, triangles & fashion",
+            "Text": "By: Saraha F.",
+            "Categroy": "Collection 2",
+            "Background": "./Rec2.png",
+            "Thumbnail": "./E2.png"
+        },
+        "collectionThree": {
+            "Title": "In-depth architecture",
+            "Text": "By: Benhour",
+            "Categroy": "Collection 3",
+            "Background": "./Rec3.png",
+            "Thumbnail": "./E3.png"
+        }
     }
-
 }
