@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Collection from './Collection';
 import Outdoor from './Outdoor';
 import Service from './Service';
 import Travel from './Travel';
+
 
 
 
@@ -18,7 +20,7 @@ function App() {
     })
   },[])
 
-  console.log(data);
+  
 
   return (
     <div className="App">
@@ -28,6 +30,10 @@ function App() {
       <Service jsonData={data?.services?.parcel}/>
       <Service jsonData={data?.services?.check}/>
       <Service jsonData={data?.services?.service}/>
+      <Collection jsonData={data?.collection?.collectionOne}/>
+      <Collection jsonData={data?.collection?.collectionTwo}/>
+      <Collection jsonData={data?.collection?.collectionThree}/>
+      {/* <TitleAndText></TitleAndText> */}
       {/* <Service Color={data.services && props.delivery.color} Icon={data.services && data.services.delivery.icon} Title="On-time delivery" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"/> */}
       {/* <Service Color={data.services && data.services.parcel.color} Icon={data.services && data.services.parcel.icon} Title="Parcels" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"/>
       <Service Color={data.services && data.services.check.color} Icon={data.services && data.services.check.icon} Title="Quality check" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"/>

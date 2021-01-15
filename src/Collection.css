@@ -1,0 +1,32 @@
+.Collection {
+    /* background-color: blue; */
+    grid-row: span 4;
+    grid-column: span 4;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    /* align-items: center; */
+}
+
+.CollectionImageContainer {
+    position: relative;
+}
+
+.CollectionImage {
+    width: 100%;
+}
+
+.CollectionCategory {
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+
+.CollectionThumbnail {
+    position: absolute;
+    left: 40px;
+    top: calc(100% - 30px);
+}

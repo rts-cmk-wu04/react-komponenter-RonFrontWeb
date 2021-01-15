@@ -28,5 +28,28 @@
 
         }
 
+    },
+    "collection": {
+        "collectionOne": {
+            "Title": "Off-the-grid experiences",
+            "Text": "By: Melanie S.",
+            "Categroy": "Collection 1",
+            "Background": "./Rec1.png",
+            "Thumbnail": "./E1.png"
+        },
+        "collectionTwo": {
+            "Title": "Shapes, triangles & fashion",
+            "Text": "By: Saraha F.",
+            "Categroy": "Collection 2",
+            "Background": "./Rec2.png",
+            "Thumbnail": "./E2.png"
+        },
+        "collectionThree": {
+            "Title": "In-depth architecture",
+            "Text": "By: Benhour",
+            "Categroy": "Collection 3",
+            "Background": "./Rec3.png",
+            "Thumbnail": "./E3.png"
+        }
     }
 }
